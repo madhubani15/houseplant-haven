@@ -1,0 +1,20 @@
+{
+"name": "houseplant-haven",
+"version": "1.0.0",
+"private": true,
+"dependencies": {
+"react": "18.x",
+"react-dom": "18.x",
+"react-scripts": "5.x",
+"@reduxjs/toolkit": "1.9.x",
+"react-redux": "8.x",
+"react-router-dom": "6.x",
+"gh-pages": "4.x"
+},
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
+}
